@@ -18,3 +18,17 @@
 [sort库](https://github.com/iteny/gopkg/tree/master/sort "点击进入")`(包含基本的排序方法，支持切片数据排序以及用户自定义数据集合排序)`<br>
 [index/suffixarray库](https://github.com/iteny/gopkg/tree/master/index/suffixarray "点击进入")`(包实现了后缀数组相关算法以支持许多常见的字符串操作)`<br>
 [container库](https://github.com/iteny/gopkg/tree/master/container "点击进入")`(包提供了对heap、list和ring这3种数据结构的底层支持。任何实现了相应接口的数据结构都可以调用该结构的方法)`<br>
+
+# 日期与时间
+[time库](https://github.com/iteny/gopkg/tree/master/time "点击进入")`(包提供了时间的显示和计量用的功能。日历的计算采用的是公历)`<br>
+
+# 基本数学函数
+[math库](https://github.com/iteny/gopkg/tree/master/math "点击进入")`(包实现的就是数学公式计算)`<br>
+
+# 文件系统
+[os库](https://github.com/iteny/gopkg/tree/master/os "点击进入")`(提供了跨平台的操作系统功能实现)`<br>
+
+# 数据库操作
+[database/sql库](https://github.com/iteny/gopkg/tree/master/database/sql "点击进入")`(这是 Go 提供的操作 SQL/SQL-Like 数据库的通用接口，但 Go 标准库并没有提供具体数据库的实现，需要结合第三方的驱动来使用该接口。本书使用的是 mysql 的驱动：github.com/go-sql-driver/mysql。注：该包有一个子包：driver，它定义了一些接口供数据库驱动实现，一般业务代码中使用 database/sql 包即可，尽量避免使用 driver 这个子包。)`<br>
+
+
