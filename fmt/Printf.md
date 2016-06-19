@@ -37,9 +37,9 @@ var site = Website{Name:"iteny"}
 	<thead>
 	<tr>
 		<th align="center" width="20">占位符</th>
-		<th align="left" width="180">说明</th>
-		<th align="left" width="180">举例</th>
-		<th align="left" width="180">输出</th>
+		<th align="left" width="25%">说明</th>
+		<th align="left" width="25%">举例</th>
+		<th align="left" width="25%">输出</th>
 	</tr>
 	</thead>
 	<tbody>
