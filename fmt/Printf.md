@@ -90,3 +90,112 @@ var site = Website{Name:"iteny"}
 	</tbody>
 </table>   
 
+# 整数占位符
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">%b</td>
+		<td align="left">二进制表示</td>
+		<td align="left">Printf("%b", 5)</td>
+		<td align="left">101</td>
+	</tr>
+	<tr>
+		<td align="center">%c</td>
+		<td align="left">相应Unicode码点所表示的字符</td>
+		<td align="left">Printf("%c", 0x4E2D)</td>
+		<td align="left">中</td>
+	</tr>
+	<tr>
+		<td align="center">%d</td>
+		<td align="left">十进制表示</td>
+		<td align="left">Printf("%d", 0x12)</td>
+		<td align="left">18</td>
+	</tr>
+	<tr>
+		<td align="center">%o</td>
+		<td align="left">八进制表示</td>
+		<td align="left">Printf("%d", 10)</td>
+		<td align="left">8</td>
+	</tr>
+	<tr>
+		<td align="center">%q</td>
+		<td align="left">单引号围绕的字符字面值，由Go语法安全地转义</td>
+		<td align="left">Printf("%q", 0x4E2D)</td>
+		<td align="left">'中'</td>
+	</tr>
+	<tr>
+		<td align="center">%x</td>
+		<td align="left">十六进制表示，字母形式为小写 a-f</td>
+		<td align="left">Printf("%x", 13)</td>
+		<td align="left">d</td>
+	</tr>
+	<tr>
+		<td align="center">%X</td>
+		<td align="left">十六进制表示，字母形式为大写 A-F</td>
+		<td align="left">Printf("%x", 13)</td>
+		<td align="left">D</td>
+	</tr>
+	<tr>
+		<td align="center">%U</td>
+		<td align="left">Unicode格式：U+1234，等同于 "U+%04X"</td>
+		<td align="left">Printf("%U", 0x4E2D)</td>
+		<td align="left">U+4E2D</td>
+	</tr>
+	</tbody>
+</table>   
+
+# 浮点数和复数的组成部分(实部和虚部)
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">%e</td>
+		<td align="left">科学计数法，例如 -1234.456e+78</td>
+		<td align="left"> Printf("%e", 10.2)</td>
+		<td align="left">1.020000e+01</td>
+	</tr>
+	<tr>
+		<td align="center">%E</td>
+		<td align="left">科学计数法，例如 -1234.456E+78</td>
+		<td align="left">Printf("%E", 10.2)</td>
+		<td align="left">1.020000E+01</td>
+	</tr>
+	<tr>
+		<td align="center">%f</td>
+		<td align="left">有小数点而无指数，例如 123.456</td>
+		<td align="left">Printf("%f", 10.2)</td>
+		<td align="left">10.200000</td>
+	</tr>
+	<tr>
+		<td align="center">%g</td>
+		<td align="left">根据情况选择 %e 或 %f 以产生更紧凑的（无末尾的0）输出</td>
+		<td align="left">Printf("%g", 10.20)</td>
+		<td align="left">10.2</td>
+	</tr>
+	<tr>
+		<td align="center">%G</td>
+		<td align="left">根据情况选择 %E 或 %f 以产生更紧凑的（无末尾的0）输出</td>
+		<td align="left">Printf("%G", 10.20+2i)</td>
+		<td align="left">(10.2+2i)</td>
+	</tr>	
+	</tbody>
+</table>
+
+
+
+
