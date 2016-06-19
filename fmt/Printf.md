@@ -1,6 +1,4 @@
-<style type="text/css">
-	td{color: red}
-</style>
+
 # func Printf(format string, a ...interface{}) (n int, err error)
 
 参数列表
@@ -35,6 +33,15 @@ type Website struct {
 var site = Website{Name:"iteny"}
 ```
 # 普通占位符
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	td{color: red}
+	</style>
+</head>
+<body>
 <table>
 	<thead>
 	<tr>
@@ -52,5 +59,8 @@ var site = Website{Name:"iteny"}
 		<td align="center">{iteny}，{Name:iteny}</td>
 	</tr>
 	</tbody>
-</table>                         
+</table>  
+</body>
+</html>
+                       
 
