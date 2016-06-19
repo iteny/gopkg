@@ -45,9 +45,27 @@ var site = Website{Name:"iteny"}
 	<tbody>
 	<tr>
 		<td align="center">%v</td>
-		<td align="left">相应值的默认格式。</td>
+		<td align="left">变量的自然形式(natural format),在打印结构体时,“加号”标记(%+v)会添加字段名</td>
 		<td align="left">Printf("%v", site)，Printf("%+v", site)</td>
 		<td align="left">{iteny}，{Name:iteny}</td>
+	</tr>
+	<tr>
+		<td align="center">%#v</td>
+		<td align="left">变量的Go语法表示</td>
+		<td align="left">Printf("#v", site)</td>
+		<td align="left">main.Website{Name:"iteny"}</td>
+	</tr>
+	<tr>
+		<td align="center">%T</td>
+		<td align="left">变量的类型</td>
+		<td align="left">Printf("%T", site)</td>
+		<td align="left">main.Website</td>
+	</tr>
+	<tr>
+		<td align="center">%%</td>
+		<td align="left">字面上的百分号标志(并非值的占位符)</td>
+		<td align="left">Printf("%%")</td>
+		<td align="left">%</td>
 	</tr>
 	</tbody>
 </table>                         
