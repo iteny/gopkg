@@ -1,3 +1,6 @@
+<style type="text/css">
+	td{color: red}
+</style>
 # func Printf(format string, a ...interface{}) (n int, err error)
 
 参数列表
