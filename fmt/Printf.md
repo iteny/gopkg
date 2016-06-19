@@ -36,10 +36,10 @@ var site = Website{Name:"iteny"}
 <table>
 	<thead>
 	<tr>
-		<th align="center" width="20">占位符</th>
-		<th align="left" width="25%">说明</th>
-		<th align="left" width="25%">举例</th>
-		<th align="left" width="25%">输出</th>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
 	</tr>
 	</thead>
 	<tbody>
