@@ -23,3 +23,19 @@
 	func main() {
 		fmt.Printf("Format:%s\n","格式打印!")
 	}
+
+<table><thead>
+<tr>
+<th align="center">课时数</th>
+<th align="left">课时标题</th>
+<th align="left">在线播放</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="center">第 1 课</td>
+<td align="left"><a href="/Unknwon/go-fundamental-programming/blob/master/lectures/lecture1.md">Go开发环境搭建</a></td>
+<td align="left"><a href="http://www.tudou.com/programs/view/hlDq2A0vNes/">土豆网</a> <a href="http://www.ucai.cn/course/chapter/69/3210/4555">优才网</a> <a href="http://study.163.com/course/courseLearn.htm?courseId=306002#/learn/video?lessonId=421012&amp;courseId=306002">网易云课堂</a></td>
+</tr>
+</tbody>
+</table>                         %
+```

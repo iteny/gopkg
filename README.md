@@ -26,7 +26,7 @@
 [math包](https://github.com/iteny/gopkg/tree/master/math "点击进入")`(包实现的就是数学公式计算)`<br>
 
 # 文件系统
-[os包](https://github.com/iteny/gopkg/tree/master/os "点击进入")`(提供了跨平台的操作系统功能实现)`<br>
+[os包](https://github.com/iteny/gopkg/tree/master/os "点击进入")`(包以跨平台的方式，提供了一些与操作系统交互的函数和变量。程序的命令行参数可从os包的Args变量获取；os包外部使用os.Args访问该变量。)`<br>
 
 # 数据库操作
 [database/sql包](https://github.com/iteny/gopkg/tree/master/database/sql "点击进入")`(这是 Go 提供的操作 SQL/SQL-Like 数据库的通用接口，但 Go 标准库并没有提供具体数据库的实现，需要结合第三方的驱动来使用该接口。本书使用的是 mysql 的驱动：github.com/go-sql-driver/mysql。注：该包有一个子包：driver，它定义了一些接口供数据库驱动实现，一般业务代码中使用 database/sql 包即可，尽量避免使用 driver 这个子包。)`<br>
