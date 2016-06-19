@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<!-- <style type="text/css">
-	td{color: red}
-	</style> -->
-</head>
-<body>
+
+	
+
 <table>
 	<thead>
 	<tr>
@@ -25,7 +21,7 @@
 	</tr>
 	</tbody>
 </table>  
-</body>
+
 </html>
                        
 
