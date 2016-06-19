@@ -34,5 +34,15 @@
 # 测试代码
 [testing包](https://github.com/iteny/gopkg/tree/master/testing "点击进入")`(测试代码功能)`<br>
 
+# 非安全类型操作
+[unsafe包](https://github.com/iteny/gopkg/tree/master/unsafe "点击进入")`(一般被认为使用该库是不安全的。但是，在许多情况下，unsafe库的作用又是不可替代的，灵活地使用它们可以实现对内存的直接读写操作。在reflect库、syscall库以及其他许多需要操作内存的开源项目中都有对它的引用。)`<br>
+
+# 并发相关
+[sync包](https://github.com/iteny/gopkg/tree/master/sync "点击进入")`(处理同步需求)`<br>
+[sync/atomic包](https://github.com/iteny/gopkg/tree/master/sync/atomic "点击进入")`(对于并发操作而言，原子操作是个非常现实的问题。典型的就是i++的问题。 当两个CPU同时对内存中的i进行读取，然后把加一之后的值放入内存中，可能两次i++的结果，这个i只增加了一次。 如何保证多CPU对同一块内存的操作是原子的。 golang中sync/atomic就是做这个使用的。)`<br>
+[os/signal包](https://github.com/iteny/gopkg/tree/master/os/signal "点击进入")`(信号是事件发生时对进程的通知机制。有时也称之为软件中断。信号与硬件中断的相似之处在于打断了程序执行的正常流程，大多数情况下，无法预测信号到达的精确时间)`<br>
+
+
+
 
 
