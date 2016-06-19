@@ -1,12 +1,10 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<style type="text/css">
+	<!-- <style type="text/css">
 	td{color: red}
-	</style>
+	</style> -->
 </head>
 <body>
 <table>
