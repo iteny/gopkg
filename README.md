@@ -13,3 +13,8 @@
 [strconv库](https://github.com/iteny/gopkg/tree/master/strconv "点击进入")`(字符串和基本数据类型之间转换)`<br>
 [regexp库](https://github.com/iteny/gopkg/tree/master/regexp "点击进入")`(正则表达式)`<br>
 [unicode库](https://github.com/iteny/gopkg/tree/master/unicode "点击进入")`(Unicode码点、UTF-8/16编码)`<br>
+
+# 数据结构与算法
+[sort库](https://github.com/iteny/gopkg/tree/master/sort "点击进入")`(包含基本的排序方法，支持切片数据排序以及用户自定义数据集合排序)`<br>
+[index/suffixary库](https://github.com/iteny/gopkg/tree/master/index/suffixary "点击进入")`(包实现了后缀数组相关算法以支持许多常见的字符串操作)`<br>
+[container库](https://github.com/iteny/gopkg/tree/master/container "点击进入")`(包提供了对heap、list和ring这3种数据结构的底层支持。任何实现了相应接口的数据结构都可以调用该结构的方法)`<br>
