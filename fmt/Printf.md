@@ -196,6 +196,110 @@ var site = Website{Name:"iteny"}
 	</tbody>
 </table>
 
+# 字符串与字节切片
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">%s</td>
+		<td align="left">输出字符串表示（string类型或[]byte)</td>
+		<td align="left">Printf("%s", []byte("Go语言学习园地"))</td>
+		<td align="left">Go语言学习园地</td>
+	</tr>
+	<tr>
+		<td align="center">%q</td>
+		<td align="left">双引号围绕的字符串，由Go语法安全地转义</td>
+		<td align="left">Printf("%q", "Go语言学习园地")</td>
+		<td align="left">"Go语言学习园地"</td>
+	</tr>
+	<tr>
+		<td align="center">%x</td>
+		<td align="left">十六进制，小写字母，每字节两个字符</td>
+		<td align="left">Printf("%x", "golang")</td>
+		<td align="left">676f6c616e67</td>
+	</tr>
+	<tr>
+		<td align="center">%X</td>
+		<td align="left">十六进制，大写字母，每字节两个字符</td>
+		<td align="left">Printf("%X", "golang")</td>
+		<td align="left">676F6C616E67</td>
+	</tr>
+	</tbody>
+</table> 
+
+# 指针
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">%p</td>
+		<td align="left">十六进制表示，前缀 0x</td>
+		<td align="left">Printf("%p", &site)</td>
+		<td align="left">0x4f57f0</td>
+	</tr>
+	</tbody>
+</table> 
+
+# 其他占位符
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">+</td>
+		<td align="left">总打印数值的正负号:对于%q(%+q)保证只输出ASCII编码的字符。</td>
+		<td align="left">Printf("%+q", "中文")</td>
+		<td align="left">"\u4e2d\u6587"</td>
+	</tr>
+	<tr>
+		<td align="center">-</td>
+		<td align="left">在右侧而非左侧填充空格(左对齐该区域)</td>
+		<td align="left"></td>
+		<td align="left"></td>
+	</tr>
+	<tr>
+		<td align="center">#</td>
+		<td align="left">备用格式:为八进制添加前导0(%#o)，为十六进制添加前导0x(%#x)</td>
+		<td align="left">Printf("%#U", '中')</td>
+		<td align="left">U+4E2D '中'</td>
+	</tr>
+	<tr>
+		<td align="center">' '</td>
+		<td align="left">(空格)为数值中省略的正负号留出空白(% d)</td>
+		<td align="left"></td>
+		<td align="left"></td>
+	</tr>
+	<tr>
+		<td align="center">0</td>
+		<td align="left">填充前导的0而非空格:对于数字,这会将填充移到正负号之后</td>
+		<td align="left"></td>
+		<td align="left"></td>
+	</tr>
+	</tbody>
+</table> 
+
+
+
 
 
 
