@@ -23,19 +23,31 @@
 	func main() {
 		fmt.Printf("Format:%s\n","格式打印!")
 	}
-
-<table><thead>
-<tr>
-<th align="center">课时数</th>
-<th align="left">课时标题</th>
-<th align="left">在线播放</th>
-</tr>
-</thead><tbody>
-<tr>
-<td align="center">第 1 课</td>
-<td align="left"><a href="/Unknwon/go-fundamental-programming/blob/master/lectures/lecture1.md">Go开发环境搭建</a></td>
-<td align="left"><a href="http://www.tudou.com/programs/view/hlDq2A0vNes/">土豆网</a> <a href="http://www.ucai.cn/course/chapter/69/3210/4555">优才网</a> <a href="http://study.163.com/course/courseLearn.htm?courseId=306002#/learn/video?lessonId=421012&amp;courseId=306002">网易云课堂</a></td>
-</tr>
-</tbody>
-</table>                         %
 ```
+type Website struct {
+    Name string
+}
+
+// 打印结构体时
+var site = Website{Name:"iteny"}
+```
+# 普通占位符
+<table>
+	<thead>
+	<tr>
+		<th align="center">占位符</th>
+		<th align="left">说明</th>
+		<th align="left">举例</th>
+		<th align="left">输出</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td align="center">%v</td>
+		<td align="left">相应值的默认格式。</td>
+		<td align="left">Printf("%v", site)，Printf("%+v", site)</td>
+		<td align="center">{iteny}，{Name:iteny}</td>
+	</tr>
+	</tbody>
+</table>                         
+
