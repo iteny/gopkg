@@ -12,3 +12,4 @@
 [bytes库](https://github.com/iteny/gopkg/tree/master/bytes "点击进入")`(byte slice 便利操作)`<br>
 [strconv库](https://github.com/iteny/gopkg/tree/master/strconv "点击进入")`(字符串和基本数据类型之间转换)`<br>
 [regexp库](https://github.com/iteny/gopkg/tree/master/regexp "点击进入")`(正则表达式)`<br>
+[unicode库](https://github.com/iteny/gopkg/tree/master/unicode "点击进入")`(Unicode码点、UTF-8/16编码)`<br>
