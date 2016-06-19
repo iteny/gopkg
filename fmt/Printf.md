@@ -70,3 +70,23 @@ var site = Website{Name:"iteny"}
 	</tbody>
 </table>                         
 
+# 布尔占位符
+<table>
+	<thead>
+	<tr>
+		<th align="center" width="10%">占位符</th>
+		<th align="left" width="30%">说明</th>
+		<th align="left" width="30%">举例</th>
+		<th align="left" width="30%">输出</th>
+	</tr>
+	</thead>
+	<tbody>	
+	<tr>
+		<td align="center">%t</td>
+		<td align="left">布尔：true或false</td>
+		<td align="left"> Printf("%t", true)</td>
+		<td align="left">true</td>
+	</tr>
+	</tbody>
+</table>   
+
