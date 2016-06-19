@@ -8,3 +8,6 @@
 
 # 文本处理
 [strings库](https://github.com/iteny/gopkg/tree/master/strings "点击进入")(字符串操作)<br>
+[bytes库](https://github.com/iteny/gopkg/tree/master/bytes "点击进入")(byte slice 便利操作)<br>
+[strconv库](https://github.com/iteny/gopkg/tree/master/strconv "点击进入")(字符串和基本数据类型之间转换)<br>
+[regexp库](https://github.com/iteny/gopkg/tree/master/regexp "点击进入")(正则表达式)<br>
