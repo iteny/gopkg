@@ -37,9 +37,9 @@ var site = Website{Name:"iteny"}
 	<thead>
 	<tr>
 		<th align="center" width="20">占位符</th>
-		<th align="left" width="80">说明</th>
-		<th align="left" width="80">举例</th>
-		<th align="left" width="80">输出</th>
+		<th align="left" width="180">说明</th>
+		<th align="left" width="180">举例</th>
+		<th align="left" width="180">输出</th>
 	</tr>
 	</thead>
 	<tbody>
@@ -47,7 +47,7 @@ var site = Website{Name:"iteny"}
 		<td align="center">%v</td>
 		<td align="left">相应值的默认格式。</td>
 		<td align="left">Printf("%v", site)，Printf("%+v", site)</td>
-		<td align="center">{iteny}，{Name:iteny}</td>
+		<td align="left">{iteny}，{Name:iteny}</td>
 	</tr>
 	</tbody>
 </table>                         
